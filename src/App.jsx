@@ -7,11 +7,13 @@ import ProfileSearchForm from './ProfileSearchForm'
 import { Button } from '@mui/material'
 import RatingDemo from './RatingDemo'
 import FormDemo from './FormDemo'
+import Navbar from './Navbar'
 function App() {
   
 
   return (
     <>
+    <Navbar />
     <FormDemo />
     </>
   )
